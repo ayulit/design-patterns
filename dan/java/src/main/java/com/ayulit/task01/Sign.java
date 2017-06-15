@@ -8,12 +8,10 @@ public class Sign implements IPrintable {
         this.sign = sign;
     }
     
-    
     // we can print 'sign' on some sort of printer
     @Override
     public void print(IPrinter printer) {
-        // TODO Auto-generated method stub
-
+        printer.printString(Character.toString(sign));
     }
 
 }

@@ -11,8 +11,7 @@ public class Word implements IPrintable {
     // we can print 'word' on some sort of printer
     @Override
     public void print(IPrinter printer) {
-        // TODO Auto-generated method stub
-
+        printer.printString(word);
     }
 
 }
