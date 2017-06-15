@@ -8,10 +8,11 @@ public class Client {
                         new IPrintable[]{
                             new Word("Testing"), new Sign(' '),
                             new Word("my"), new Sign(' '),
-                            new Word("architecture"), new Sign(' ')
+                            new Word("architecture"), new Sign('!')
                 });
         
-        txt.print(new PrinterDefault());
+        txt.print(new PrinterDefault());        
+        txt.print(new PrinterSpecial());
 
     }
 

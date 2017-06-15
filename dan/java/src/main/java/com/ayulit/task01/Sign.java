@@ -11,7 +11,12 @@ public class Sign implements IPrintable {
     // we can print 'sign' on some sort of printer
     @Override
     public void print(IPrinter printer) {
-        printer.printString(Character.toString(sign));
+        printer.print(this);
+    }
+    
+    @Override
+    public String toString() {
+        return Character.toString(sign);
     }
 
 }
