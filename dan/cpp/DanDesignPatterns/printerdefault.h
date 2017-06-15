@@ -5,11 +5,8 @@
 
 class PrinterDefault: public IPrinter
 {
-    public:
-        PrinterDefault();
-        // Am I Destructor ?!
-        virtual ~PrinterDefault(){}
-
+public:
+    PrinterDefault();
 };
 
 #endif // PRINTERDEFAULT_H

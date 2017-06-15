@@ -4,13 +4,18 @@
 #include "iprintable.h"
 #include "iprinter.h"
 
+#include <string>
+
+using namespace std;
+
 class Word: public IPrintable
 {
-    public:
-        Word();
-        virtual ~Word(){}
+private:
+    string word;
 
-        virtual void print(IPrinter printer) {}
+public:
+    Word(string);
+    void print(IPrinter);
 };
 
 #endif // WORD_H

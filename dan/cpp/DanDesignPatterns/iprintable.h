@@ -6,11 +6,9 @@
 // Interface class Iprinter.
 class IPrintable
 {
-    public:
-        // Am I Destructor ?!
-        virtual ~IPrintable(){}
-
-        virtual void print(IPrinter printer);
+public:
+    // pure virtual function makes class abstract!
+    virtual void print(IPrinter printer)=0;
 };
 
 #endif // IPRINTABLE_H

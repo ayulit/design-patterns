@@ -6,11 +6,8 @@
 // Interface class Iprinter. Contains print methods of string data
 class IPrinter
 {
-    public:
-        // Am I Destructor ?!
-        virtual ~IPrinter(){}
-
-        // stub for a while
+public:
+    // stub for a while
 };
 
 #endif // IPRINTER_H

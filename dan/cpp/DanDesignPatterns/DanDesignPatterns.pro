@@ -15,7 +15,9 @@ TEMPLATE = app
 
 SOURCES += main.cpp \
     printerdefault.cpp \
-    word.cpp
+    word.cpp \
+    sign.cpp \
+    text.cpp
 
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which as been marked deprecated (the exact warnings
@@ -32,4 +34,6 @@ HEADERS += \
     iprinter.h \
     printerdefault.h \
     iprintable.h \
-    word.h
+    word.h \
+    sign.h \
+    text.h
